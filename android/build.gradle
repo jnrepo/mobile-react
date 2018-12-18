@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         ndk {
@@ -51,7 +51,7 @@ dependencies {
     //only for nv-nfc
     implementation "com.madgag.spongycastle:prov:1.58.0.0"
     implementation "net.sf.scuba:scuba-sc-android:0.0.16"
-    
+
     //only for nv-barcode-vision
     implementation "com.google.android.gms:play-services-vision:12.0.0"
 
